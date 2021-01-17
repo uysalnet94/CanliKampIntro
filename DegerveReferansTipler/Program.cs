@@ -16,6 +16,8 @@ namespace DegerVeReferansTipler
             sayi1 = sayi2;
             sayi2 = 65;
             Console.WriteLine("Sayı 1 = " + sayi1);
+            //test kontrol 
+
 
 
             //array,class,interface referans tiptir.
