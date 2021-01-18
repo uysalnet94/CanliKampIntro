@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math", "Math\Math.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferansTipler", "DegerveReferansTipler\DegerVeReferansTipler.csproj", "{A061D226-E032-4437-A3FD-36E429C9B936}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodDemo", "ClassMethodDemo\ClassMethodDemo.csproj", "{DCDD9123-8EC9-482F-A5FB-5825C9531529}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A061D226-E032-4437-A3FD-36E429C9B936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A061D226-E032-4437-A3FD-36E429C9B936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A061D226-E032-4437-A3FD-36E429C9B936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCDD9123-8EC9-482F-A5FB-5825C9531529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCDD9123-8EC9-482F-A5FB-5825C9531529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCDD9123-8EC9-482F-A5FB-5825C9531529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCDD9123-8EC9-482F-A5FB-5825C9531529}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
