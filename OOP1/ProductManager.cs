@@ -16,13 +16,13 @@ namespace OOP1
         {
             Console.WriteLine(product.ProductName + "güncellendi.");
         }
-
+        //Method tipi int, string vb. olursa method içerisinde return bekleniyor.
         public int Sum(int sayi1, int sayi2)
         {
             return sayi1 + sayi2;
 
         }
-
+        // Method tipi void olursa sadece işlem yapılıyor.
         public void Sum2(int sayi1, int sayi2)
         {
             Console.WriteLine(sayi1 + sayi2);
