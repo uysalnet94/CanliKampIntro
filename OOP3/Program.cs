@@ -23,8 +23,11 @@ namespace OOP3
             ILoggerService databaseLoggerService = new DatabaseLoggerService();
             ILoggerService fileLoggerService = new FileLoggerService();
 
+
+            List<ILoggerService> loggers = new List<ILoggerService> { new SmsLoggerService(), new FileLoggerService()};
+
             ApplicationManager applicationManager = new ApplicationManager();
-            applicationManager.DoApplication(new EsnafCreditManager(), new SmsLoggerService());
+            applicationManager.DoApplication(new EsnafCreditManager(), loggers);
 
             List<ICreditManager> credits = new List<ICreditManager>() { personalFinanceCredit, mortgageCreditManager, vehicleCredit };
             //applicationManager.DoCreditPreInformation(credits);
